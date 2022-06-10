@@ -1,10 +1,14 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 
 import './App.css'
 
 function App() {
-    const [count, setCount] = useState(0)
+    const [state, setState] = useState('');
 
+    useEffect(() => {
+        console.log(state)
+    }, []);
+    
     return (
         <div className="App">
             Hello world
