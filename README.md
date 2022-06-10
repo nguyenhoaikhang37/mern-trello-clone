@@ -11,6 +11,7 @@ empty
 - Client:
     - typescript
     - react
+    - dnd
 
 - Server:
     - express
